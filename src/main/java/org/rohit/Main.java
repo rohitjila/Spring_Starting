@@ -1,19 +1,13 @@
 package org.rohit;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+//This is the Core Java Example where Raju is dependent on Rani to
+//get the number, Here we are creating obj by using
+// new keyword, I will create this core java into
+//Spring framework application where I will explain how to create objects
+//without new keyword and what are the benefits of it.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        Raju raju = new Raju();
+        System.out.println(raju.Number());
     }
 }
